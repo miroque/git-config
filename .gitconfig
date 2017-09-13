@@ -1,0 +1,19 @@
+[merge]
+	tool = kdiff3
+[diff]
+	tool = kdiff3
+	guitool = kdiff3
+[core]
+	autocrlf = true
+[user]
+	name = 
+	email = 
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[difftool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+[alias]
+	last = log -1 HEAD
+	maplog = log --pretty=format:\"%C(bold red)%d%Creset %s (%C(cyan bold)%h%Creset %C(green)%cn%Creset) %C(magenta)%ar\" --graph
+[gui]
+	encoding = utf-8
